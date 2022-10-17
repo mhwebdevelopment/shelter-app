@@ -28,8 +28,8 @@ const Navbar = () => {
       <p className="cart-icon2">
         <Link href="https://colescountyanimalshelter.com/">Coles County Animal Shelter</Link>
       </p>
-      <button type="button" className="cart-icon" href="https://gofund.me/9542c083">
-        <AiOutlineHeart />
+      <button type="button" className="cart-icon">
+        <a href="https://gofund.me/9542c083"><AiOutlineHeart /></a>
       </button>
     </div>
   )
