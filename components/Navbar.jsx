@@ -1,8 +1,8 @@
-import React from 'react';
-import Link from 'next/link';
-import { AiOutlineHeart} from 'react-icons/ai'
-import { Fav } from './';
-import { useStateContext} from '../context/StateContext';
+import React from "react";
+import Link from "next/link";
+import { AiOutlineHeart} from "react-icons/ai"
+import { Fav } from "./";
+import { useStateContext} from "../context/StateContext";
 const Navbar = () => {
   const { showFav, setShowFav, totalQuantities } = useStateContext();
   return (
