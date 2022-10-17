@@ -5,7 +5,7 @@ import { useStateContext } from '../../context/StateContext';
 const PetDetails = ({ pet, pets, bannerData } ) => {
   const { image, name, age, gender, details } = pet;
   const [index, setIndex] = useState(0);
-  const { qty, onAdd } = useStateContext()
+  const { } = useStateContext()
   return (
     <div>
       <div className="product-detail-container">
@@ -30,7 +30,7 @@ const PetDetails = ({ pet, pets, bannerData } ) => {
           <p>{details}</p>
           <p className="price">{gender} - {age}</p>
           <div className="buttons">
-            <button type="button" className="add-to-cart" onClick={() => onAdd(pet, qty)}>Add to Favorites</button>
+            <button type="button" className="add-to-cart" href="tel:2173454112">Call Now</button>
             <a href="https://docdro.id/YkZLm1f"><button type="button" className="buy-now">Get an Application</button></a>
           </div>
         </div>

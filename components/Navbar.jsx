@@ -1,10 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import { AiOutlineHeart} from "react-icons/ai"
-import { Fav } from "./";
 import { useStateContext} from "../context/StateContext";
 const Navbar = () => {
-  const { showFav, setShowFav, totalQuantities } = useStateContext();
+  const { } = useStateContext();
   return (
     <div className="navbar-container">
       <div className="menu-wrap">
@@ -29,11 +28,9 @@ const Navbar = () => {
       <p className="cart-icon2">
         <Link href="https://colescountyanimalshelter.com/">Coles County Animal Shelter</Link>
       </p>
-      <button type="button" className="cart-icon" onClick={() => setShowFav(true)}>
+      <button type="button" className="cart-icon" href="https://gofund.me/9542c083">
         <AiOutlineHeart />
-        <span className="cart-item-qty">{totalQuantities}</span>
       </button>
-      {showFav && <Fav />}
     </div>
   )
 }
