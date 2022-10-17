@@ -10,7 +10,7 @@ const Footer = () => {
       </p>
       <p>
         <a href="#about"> About</a> /
-        <a href="#faq"> Faq's</a> /
+        <a href="#faq"> Faq&apos;s</a> /
         <a href="#animals"> Animals</a>
       </p><br></br>
       <p>Website by: <a className="websitelink" href="https://www.mhwebdevelopment.com/"> MH Web Development</a></p>

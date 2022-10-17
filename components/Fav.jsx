@@ -21,7 +21,7 @@ const Fav = () => {
         {favItems.length < 1 && (
           <div className="empty-cart">
             <AiOutlineHeart size={150} />
-            <h3>You don't have any favorites yet</h3>
+            <h3>You don&apos;t have any favorites yet</h3>
             <Link href="/">
               <button
                 type="button"

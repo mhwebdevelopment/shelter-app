@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Faq = () => {
   return (
     <div className="faq">
-    <h1>FAQ's</h1>
+    <h1>FAQ&apos;s</h1>
     <details>
     <summary>What are the shelter hours?</summary>
     <div className="faq__content">
