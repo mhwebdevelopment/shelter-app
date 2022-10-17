@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'
 const Faq = () => {
   return (
     <div className="faq">
@@ -27,7 +28,7 @@ const Faq = () => {
     <summary>How does the application process work?</summary>
     <div className="faq__content">
     <p>All applications must be handled in office</p><br></br>
-    <p>We have paper copies on hand or you can download the pdf <a className="inline-link" href="/">here</a> and fill it out ahead of time</p><br></br>
+    <p>We have paper copies on hand or you can download the pdf <Link className="inline-link" href="/">here</Link> and fill it out ahead of time</p><br></br>
     <p>Next it would need to be printed out and turned into the shelter for it to be looked over</p>
     </div>
     </details>
@@ -36,7 +37,7 @@ const Faq = () => {
     <div className="faq__content">
     <p>Were always accepting new Volunteers just send an email, call, or come in and see us!</p><br></br>
     <p>Donations of any kind are greatly appreciated, we can accept cash or checks made out to the animal shelter</p><br></br>
-    <p>You can also donate anytime with our <a className="inline-link" href="https://gofund.me/9542c083">GoFundMe</a> page</p><br></br>
+    <p>You can also donate anytime with our <Link className="inline-link" href="https://gofund.me/9542c083">GoFundMe</Link> page</p><br></br>
     </div>
     </details>
     </div>
