@@ -30,7 +30,7 @@ const PetDetails = ({ pet, pets, bannerData } ) => {
           <p>{details}</p>
           <p className="price">{gender} - {age}</p>
           <div className="buttons">
-            <button type="button" className="add-to-cart"><a href="tel:2173454112">Call Now</a></button>
+            <a href="tel:2173454112"><button type="button" className="add-to-cart">Call Now</button></a>
             <a href="https://docdro.id/YkZLm1f"><button type="button" className="buy-now">Get an Application</button></a>
           </div>
         </div>
