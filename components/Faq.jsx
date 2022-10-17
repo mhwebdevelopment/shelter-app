@@ -28,7 +28,7 @@ const Faq = () => {
     <summary>How does the application process work?</summary>
     <div className="faq__content">
     <p>All applications must be handled in office</p><br></br>
-    <p>We have paper copies on hand or you can download the pdf <Link className="inline-link" href="/">here</Link> and fill it out ahead of time</p><br></br>
+    <p>We have paper copies on hand or you can download the pdf <Link className="inline-link" href="https://docdro.id/YkZLm1f">here</Link> and fill it out ahead of time</p><br></br>
     <p>Next it would need to be printed out and turned into the shelter for it to be looked over</p>
     </div>
     </details>

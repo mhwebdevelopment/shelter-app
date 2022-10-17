@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <p>
-        <a href="http://localhost:3000/"> Home</a> /
+        <a href="https://colescountyanimalshelter.com/"> Home</a> /
         <a href="https://gofund.me/9542c083"> Donate</a> /
         <a href="mailto:colescountyanimalshelter1@gmail.com?subject=New Volunteer!&body=I would love to volunteer, could I please have some more info on how the process works?"> Volunteer</a>
       </p>

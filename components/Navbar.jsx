@@ -14,7 +14,7 @@ const Navbar = () => {
       <div>
         <div>
           <ul>
-            <li><a href="http://localhost:3000">Home</a></li>
+            <li><a href="http://colescountyanimalshelter.com/">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#faq">FAQ&apos;s</a></li>
             <li><a href="#animals">Animals</a></li>
@@ -27,7 +27,7 @@ const Navbar = () => {
       </div>
       </div>
       <p className="cart-icon2">
-        <Link href="/">Coles County Animal Shelter</Link>
+        <Link href="https://colescountyanimalshelter.com/">Coles County Animal Shelter</Link>
       </p>
       <button type="button" className="cart-icon" onClick={() => setShowFav(true)}>
         <AiOutlineHeart />
