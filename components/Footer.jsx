@@ -10,8 +10,8 @@ const Footer = () => {
         <Link href="mailto:colescountyanimalshelter1@gmail.com?subject=New Volunteer!&body=I would love to volunteer, could I please have some more info on how the process works?"> Volunteer</Link>
       </p>
       <p>
-        <Link href="/#about"> About</Link> 
-        <Link href="/#faq"> Faq&apos;s</Link> 
+        <Link href="/#about"> About</Link> /
+        <Link href="/#faq"> Faq&apos;s</Link> /
         <Link href="/#animals"> Animals</Link>
       </p><br></br>
       <p>Website by: <a className="websitelink" href="https://www.mhwebdevelopment.com/"> MH Web Development</a></p>
