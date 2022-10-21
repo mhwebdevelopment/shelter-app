@@ -4,7 +4,7 @@ import { urlFor } from '../lib/client';
 const Pet = ({ pet: { image, name, slug, age, gender } }) => {
   return (
     <div>
-      <Link href={`/pet/${slug.current}`}>
+      <Link passhref={`/pet/${slug.current}`}>
         <div className="product-card">
           <img 
             src={urlFor(image && image[0])}

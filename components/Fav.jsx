@@ -22,7 +22,7 @@ const Fav = () => {
           <div className="empty-cart">
             <AiOutlineHeart size={150} />
             <h3>You don&apos;t have any favorites yet</h3>
-            <Link href="/">
+            <Link passhref="/">
               <button
                 type="button"
                 onClick={() => setShowFav(false)}
