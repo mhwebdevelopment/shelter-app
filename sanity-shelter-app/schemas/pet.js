@@ -6,7 +6,6 @@ export default {
     {
       name: 'image',
       title: 'Image',
-      imageUrl: 'ImageURL',
       type: 'array',
       of: [{ type: 'image' }],
       options: {
