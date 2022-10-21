@@ -6,8 +6,9 @@ export default {
     {
       name: 'imageUrl',
       title: 'ImageUrl',
+      imgurl: 'imgUrl',
       type: 'array',
-      of: [{ type: 'image', imgurl: 'imgUrl' }],
+      of: [{ type: 'image' }],
       options: {
         hotspot: true,
       }
