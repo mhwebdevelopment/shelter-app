@@ -7,7 +7,7 @@ const HeroBanner = ({ heroBanner }) => {
         <p className="beats-solo">{heroBanner.smallText}</p>
         <h1 className="">{heroBanner.largeText1}</h1>
         <div>
-          <Link href="https://www.google.com/maps/place/6818+N+Co+Rd+1120E,+Charleston,+IL+61920/@39.4745082,-88.2635537,17z/data=!3m1!4b1!4m5!3m4!1s0x88731b4b4346c12d:0x2670e727e12f3a46!8m2!3d39.4745041!4d-88.261365">
+          <Link passhref="https://www.google.com/maps/place/6818+N+Co+Rd+1120E,+Charleston,+IL+61920/@39.4745082,-88.2635537,17z/data=!3m1!4b1!4m5!3m4!1s0x88731b4b4346c12d:0x2670e727e12f3a46!8m2!3d39.4745041!4d-88.261365">
             <button type="button"><h2>{heroBanner.buttonText} </h2></button>
           </Link>  
         </div>

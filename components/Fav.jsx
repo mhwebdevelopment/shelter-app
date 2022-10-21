@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { AiOutlineLeft, AiOutlineHeart } from 'react-icons/ai';
 import { TiDeleteOutline } from 'react-icons/ti';
 import { useStateContext } from '../context/StateContext';
@@ -36,7 +37,7 @@ const Fav = () => {
         <div className="product-container">
           {favItems.length >= 1 && favItems.map((item) => (
             <div className="product" key={item._id}>
-              <img src={urlFor(item?.image[0])} className="cart-product-image" />
+              <Image src={urlFor(item?.image[0])} className="cart-product-image" alt="pet picture" />
               <div className="item-desc">
                 <div className="flex top">
                   <h5>{item.name}</h5>
