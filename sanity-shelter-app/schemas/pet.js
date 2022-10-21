@@ -4,10 +4,10 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'imgUrl',
-      title: 'ImageUrl',
-      type: 'image',
-      imgurl: 'imgUrl' }],
+      name: 'image',
+      title: 'Image',
+      type: 'array',
+      of: [{ type: 'image' }],
       options: {
         hotspot: true,
       }
