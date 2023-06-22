@@ -1,6 +1,6 @@
 import React from 'react';
-import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
-const FooterBanner = ({ footerBanner: { largeText2, smallText2, smallText3, midText, desc } }) => {
+import { AiOutlinePhone } from 'react-icons/ai';
+const FooterBanner = ({ footerBanner: { largeText2, smallText3, midText, desc } }) => {
   return (
     <div className="footer-banner-container">
       <div className="banner-desc">
