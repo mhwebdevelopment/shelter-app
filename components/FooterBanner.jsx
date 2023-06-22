@@ -9,7 +9,6 @@ const FooterBanner = ({ footerBanner: { largeText2, smallText2, smallText3, midT
         </div> 
         <div className="footer-contact">
           <a href="tel:2173454112"><p><AiOutlinePhone /> {smallText3}</p></a>
-          <p><a href="mailto:colescountyanimalshelter1@gmail.com?subject=New Volunteer!&body=I would love to volunteer, could I please have some more info on how the process works?"><AiOutlineMail /> {smallText2}</a></p>
           <h1>{midText}</h1>
           <p>{desc}</p>
         </div>
