@@ -9,8 +9,10 @@ const Home = ({ pets, bannerData }) => (
     <h2>About Us</h2><br></br>
     <p>We are county taxpayer funded and enforce the Illinois State Animal Control Act and Coles County&apos;s Animal Control Ordinances. Our facility houses animals waiting for owners to claim and waiting adoption.</p>
     <div className='about-image'>
-      <Image src= "https://www.moneycrashers.com/wp-content/uploads/2019/01/adopt-dog-animal-shelter-1068x713.jpg"
-     width={500} height={375} alt="colescountyanimalshelter" />
+      <Image src="/sign.jpg"
+      width={500}
+      height={500}
+      alt="Colescountyanimalshelter" />
     </div>
     </section>
     <section id="faq">
