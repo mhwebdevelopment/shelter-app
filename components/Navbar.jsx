@@ -18,8 +18,8 @@ const Navbar = () => {
             <li><a href="#faq">FAQ&apos;s</a></li>
             <li><a href="#animals">Animals</a></li>
             <li><a href="https://gofund.me/9542c083">Donate</a></li>
-            <li><a href="mailto:colescountyanimalshelter1@gmail.com?subject=New Volunteer!&body=I would love to volunteer, could I please have some more info on how the process works?">Volunteer</a></li>
-            <li><a href="mailto:colescountyanimalshelter1@gmail.com">Contact</a></li>
+            <li><a href="tel:2173454112"><p><AiOutlinePhone />Volunteer</a></li>
+            <li><a href="tel:2173454112"><p><AiOutlinePhone />Contact</a></li>
           </ul>
         </div>
       </div>
