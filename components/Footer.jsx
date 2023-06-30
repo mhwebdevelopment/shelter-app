@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { AiFillFacebook, AiOutlineMail} from 'react-icons/ai';
+import { AiFillFacebook } from 'react-icons/ai';
 const Footer = () => {
   return (
     <div className="footer-container">
@@ -18,9 +18,6 @@ const Footer = () => {
       <p className="icons">
         <a href="https://www.facebook.com/colescountyanimalshelter/">
           <AiFillFacebook />
-        </a>
-        <a href="mailto:colescountyanimalshelter1@gmail.com">
-          <AiOutlineMail />
         </a>
       </p>
       <hr/>
