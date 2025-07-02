@@ -1,3 +1,11 @@
-This is a simple website for the Coles County Animal Shelter, you can see details about the shelter along with dogs up for adoption, add to favorites and get an application.
+#Animal Shelter Management Web App
+
+This is a very simple animal shelter managment web app, basics included:
+
+- Responsive
+- Animal Display
+- FAQs (Hours, Volunteering, Fees, Application PDF)
+- Donation CTA (raised over $2,000 through GoFundme)
+- Sanity Studio for easy animal managment
 
 Built by: https://www.mhwebdevelopment.com/
