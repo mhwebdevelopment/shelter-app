@@ -18,8 +18,8 @@ const Navbar = () => {
             <li><a href="#faq">FAQ&apos;s</a></li>
             <li><a href="#animals">Animals</a></li>
             <li><a href="https://gofund.me/9542c083">Donate</a></li>
-            <li><a href="tel:2173454112"><p><AiOutlinePhone />Volunteer</a></li>
-            <li><a href="tel:2173454112"><p><AiOutlinePhone />Contact</a></li>
+            <li><a href="tel:2173454112"><AiOutlinePhone />Volunteer</a></li>
+            <li><a href="tel:2173454112"><AiOutlinePhone />Contact</a></li>
           </ul>
         </div>
       </div>
