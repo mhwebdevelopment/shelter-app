@@ -1,4 +1,4 @@
-#Animal Shelter Management Web App
+##Animal Shelter Management Web App
 
 This is a very simple animal shelter managment web app, basics included:
 
