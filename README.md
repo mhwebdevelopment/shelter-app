@@ -1,6 +1,6 @@
 # Shelter App — Simple Animal Shelter Management Website
 
-A clean and responsive web app for managing an animal shelter. Built with Next.js and powered by Sanity CMS for content management, the platform supports viewing available animals, downloading adoption applications, answering FAQs, and accepting donations via Stripe. It has raised over $2,000 through the integrated donation call-to-action.
+A basic and responsive web app for managing an animal shelter. Built with Next.js and powered by Sanity CMS for content management, the platform supports viewing available animals, downloading adoption applications, FAQs, and accepting donations via GoFundme. It raised over $2,000 for my local animal shelter through the implementation of multiple donation CTAs where people see the animals.
 
 ---
 
