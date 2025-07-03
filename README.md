@@ -37,7 +37,6 @@ A basic and responsive web app for managing an animal shelter. Built with Next.j
 - Stripe-integrated donation CTA (raised over $2,000)
 - Powered by Sanity Studio for easy CRUD animal management
 - Confetti animations for donation confirmations
-- Built by: [mhwebdevelopment.com](https://www.mhwebdevelopment.com/)
 
 ---
 
