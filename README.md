@@ -12,6 +12,8 @@ A basic and responsive web app for managing an animal shelter. Built with Next.j
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![Vercel](https://img.shields.io/badge/Hosted_on-Vercel-000000?style=flat&logo=vercel&logoColor=white)
 
+![Screenshot of Animal Shelter Website Design](https://mhwebdevelopment.com/assets/images/shelterdesign.png)
+
 ---
 
 ## Table of Contents
